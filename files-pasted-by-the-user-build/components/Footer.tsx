@@ -1,0 +1,1 @@
+export function Footer(){return <footer className="border-t border-[var(--line)] py-7"><div className="wrap flex flex-col justify-between gap-4 text-[10px] tracking-widest md:flex-row"><span>© {new Date().getFullYear()} MANIEMOTION</span><span className="muted">MOTION DESIGN THAT MAKES IDEAS MOVE.</span><a href="#top" className="underline">BACK TO TOP ↑</a></div></footer>}
