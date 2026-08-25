@@ -1,1 +1,0 @@
-import type { MetadataRoute } from 'next'; import { projects } from '@/data/projects'; export default function sitemap():MetadataRoute.Sitemap{return [{url:'https://maniemotion.com',lastModified:new Date()},...projects.map(p=>({url:`https://maniemotion.com/work/${p.slug}`,lastModified:new Date()}))]}
